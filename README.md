@@ -50,10 +50,10 @@ python3 dataset_list.py
 ### Download pths
 Download the following pths and put them into `pths` folder
 
-- [ResNet-50](https://drive.google.com/file/d/1vRYAie0JcNStcSwagmCq55eirGyMYGm5/view)
-- [Res2Net-50](https://sites.google.com/view/ltnghia/research/camo)
-- [Trained MRR-Net-ResNet-50](https://drive.google.com/file/d/1EgfD_GtxTlP7CSJI9RRQuKhjhbsg2DZy/view)
-- [Trained MRR-Net-Res2Net-50](https://drive.google.com/file/d/1EgfD_GtxTlP7CSJI9RRQuKhjhbsg2DZy/view)
+- [ResNet-50](https://drive.google.com/file/d/1y9oOfj8zcTdJddZcaXN3nrOg9wASJUc-/view?usp=share_link)
+- [Res2Net-50](https://drive.google.com/file/d/1JEW1ZagYM2yXibQnsXCgfz1tfh5359Xh/view?usp=share_link)
+- [Trained MRR-Net-ResNet-50](https://drive.google.com/file/d/1FcfHTAmICQ9imdembup0gFFr530i4ZLH/view?usp=share_link)
+- [Trained MRR-Net-Res2Net-50](https://drive.google.com/file/d/1oKRkVqCutytGz41OxgSNXZIui6NkGbDK/view?usp=share_link)
 
 ### Training
 You can revise the datapath、savepath、batchsize、lr、epoch defined in the train_MRRNet_ResNet50.py or train_MRRNet_Res2Net50.py. After the preparation, run this command 
