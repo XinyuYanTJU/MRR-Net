@@ -7,15 +7,23 @@
 In the biosphere, camouflaged objects take the advantage of visional wholeness by keeping the color and texture of the objects highly consistent with the background, thereby confusing the visual mechanism of other creatures and achieving a concealed effect. This is also the main reason why the task of camouflaged object detection is challenging. In this paper, we break the visual wholeness and see through the camouflage from the perspective of matching the appropriate field of view. We propose a matching-recognition-refinement network (MRR-Net), which consists of two key modules, i.e., the visual field matching and recognition module (VFMRM) and the step-wise refinement module (SWRM). In the VFMRM, various feature receptive fields are used to match candidate areas of camouflaged objects of different sizes and shapes, and adaptively activate and recognize the approximate area of the real camouflaged object. The SWRM then uses the features extracted by the backbone to gradually refine the camouflaged region obtained by VFMRM, and thus yielding the complete camouflaged object. In addition, a more efficient deep supervision method is exploited, making the features from the backbone input into the SWRM more critical and not redundant. Extensive experimental results demonstrate that our MRR-Net runs in real-time (82.6 FPS) and significantly outperforms 30 state-of-the-art models on three challenging datasets under three standard metrics. Furthermore, MRR-Net is applied to 4 downstream tasks of camouflaged object segmentation, and the results validate its practical application value. Our code is publicly available at: https://github.com/XinyuYanTJU/MRR-Net.
 
 ## Framework Overview
-![Image text](https://raw.githubusercontent.com/yxy452710960/MRR-Net/master/img/Framework.png)
+![Image text](https://github.com/XinyuYanTJU/MRR-Net/blob/main/Images/Fig3_new.jpg)
 
 <p align="center">Figure 1. Overview of our matching-recognition-refinement network (MRR-Net) and its two main building blocks: a visual field matching and recognition module (VFMRM) and a step-wise refinement module (SWRM).</p>
 
 ## Qualitative Results
-![Image text](https://raw.githubusercontent.com/yxy452710960/MRR-Net/master/img/QualitativeResults.png)
+![Image text](https://github.com/XinyuYanTJU/MRR-Net/blob/main/Images/cod_second_new.jpg)
 
 <p align="center">Figure 2. Qualitative Results.</p>
 
+## Quantitative Comparison
+<p align="center">Table 1. Quantitative evaluation. S-measure, MAE, maximum E-measure, mean E-measure, maximum F-measure, and mean F-measure of different state-of-the-art methods on three benchmark datasets are used to measure the model performance. All the prediction maps are evaluated with the same code.</p>
+
+![Image text](https://github.com/XinyuYanTJU/MRR-Net/blob/main/Images/Table.jpg)
+
+![Image text](https://github.com/XinyuYanTJU/MRR-Net/blob/main/Images/FLOPs-Speed.jpg)
+
+<p align="center">Figure 3. (Left) We present the scatter relationship between the performance and the FLOPs of models. Points closer to the upper left corner represent better results. It can be seen that the proposed MRR-Net achieves competitive performance and fewer computational costs compared to the SOTA methods. (Right) We also present the scatter relationship between the performance and the inference speed on COD10K-Te. Points closer to the upper right corner represent better results. It can be seen that the proposed MRR-Net achieves competitive performance and faster inference speed compared to the SOTA methods.</p>
 
 ## Proposed Baseline
 
