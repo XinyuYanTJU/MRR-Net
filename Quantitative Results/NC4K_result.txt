@@ -1,0 +1,3 @@
+(Dataset:NC4K; Model:MRR-Net-ResNet-50) Smeasure:0.848; MAE:0.048; adpEm:0.893; meanEm:0.898; maxEm:0.908; adpFm:0.788; meanFm:0.801; maxFm:0.824.
+(Dataset:NC4K; Model:MRR-Net-Res2Net-50) Smeasure:0.857; MAE:0.044; adpEm:0.902; meanEm:0.906; maxEm:0.915; adpFm:0.807; meanFm:0.816; maxFm:0.833.
+

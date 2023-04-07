@@ -1,0 +1,3 @@
+(Dataset:CAMO; Model:MRR-Net-ResNet-50) Smeasure:0.812; MAE:0.076; adpEm:0.869; meanEm:0.869; maxEm:0.880; adpFm:0.766; meanFm:0.772; maxFm:0.791.
+(Dataset:CAMO; Model:MRR-Net-Res2Net-50) Smeasure:0.826; MAE:0.070; adpEm:0.879; meanEm:0.880; maxEm:0.889; adpFm:0.793; meanFm:0.797; maxFm:0.812.
+

@@ -1,0 +1,1 @@
+(Dataset:COD10K-Ter; Model:MRR-Net-Res2Net-50) Smeasure:0.808; MAE:0.034; adpEm:0.866; meanEm:0.881; maxEm:0.896; adpFm:0.674; meanFm:0.702; maxFm:0.729.

@@ -1,0 +1,1 @@
+(Dataset:COD10K-Aqu; Model:MRR-Net-Res2Net-50) Smeasure:0.822; MAE:0.046; adpEm:0.884; meanEm:0.895; maxEm:0.906; adpFm:0.740; meanFm:0.760; maxFm:0.785.

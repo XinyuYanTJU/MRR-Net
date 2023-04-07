@@ -1,0 +1,1 @@
+(Dataset:COD10K-Fly; Model:MRR-Net-Res2Net-50) Smeasure:0.864; MAE:0.022; adpEm:0.911; meanEm:0.923; maxEm:0.935; adpFm:0.758; meanFm:0.788; maxFm:0.818.
