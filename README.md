@@ -73,4 +73,4 @@ python3 test_MRRNet_Res2Net50.py
 ```
 
 ### Results
-You can also download the results - [Google Drive link]() or - [Baidu Pan link](https://pan.baidu.com/s/16IIRBrQTHdlc08OwYxT1ug) with the fetch code:gt35.
+You can also download the results - [Google Drive link](https://drive.google.com/file/d/1R2YczLJmR64A-czuG2P_olRLxOZGwE0a/view?usp=share_link) or - [Baidu Pan link](https://pan.baidu.com/s/16IIRBrQTHdlc08OwYxT1ug) with the fetch code:gt35.
